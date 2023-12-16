@@ -1,0 +1,63 @@
+{
+	"name": "JavaScriptSnippets",
+	"description": "Fork from Code snippets for JavaScript in ES6 syntax, thanks to xabikos",
+	"version": "1.8.0",
+	"displayName": "JS ES6 snippets",
+	"publisher": "lbarreras",
+	"icon": "images/javascript.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LuisRBarreras/vscode-javascript"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^1.66.0"
+	},
+	"scripts": {
+		"generate": "vsce package"
+	},
+	"__metadata": {
+		"id": "4d89c967-0802-45c4-a638-14bda4f74be1",
+		"publisherId": "91fde14e-66e8-43e5-8708-abf621a852be",
+		"publisherDisplayName": "Luis Barreras",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1691404065968,
+		"preRelease": false
+	}
+}
